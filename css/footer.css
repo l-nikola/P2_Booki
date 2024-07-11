@@ -1,0 +1,15 @@
+.footer-content {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  /* Remove ?  */
+  margin-top: 10px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+  .footer-content {
+    display: grid;
+  }
+}
