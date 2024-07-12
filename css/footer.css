@@ -1,15 +1,32 @@
-.footer-content {
+footer {
   background-color: #f2f2f2;
   display: flex;
   justify-content: space-around;
+
   /* Remove ?  */
   margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: auto;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+h5 {
+  font-size: large;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 767px) {
-  .footer-content {
+  footer {
     display: grid;
   }
 }
