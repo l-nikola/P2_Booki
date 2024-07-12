@@ -1,0 +1,23 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 79px;
+}
+
+.header-logo {
+  width: Hug (161.09px) px;
+  height: Hug (79px) px;
+  padding: 30px 50px 30px 50px;
+  gap: 10px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+}
+
+/* Check */
+.header-btn :hover {
+  color: #0065fc;
+}
