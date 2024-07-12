@@ -14,10 +14,20 @@
 .header-menu {
   display: flex;
   justify-content: space-between;
+  height: 20px;
+  left: 1096px;
   gap: 68px;
 }
 
 /* Check */
-.header-btn :hover {
+.header-btn {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.header-btn:hover {
+  border-top: 3px solid #0065fc;
   color: #0065fc;
+  top: -8px;
 }
