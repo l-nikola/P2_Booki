@@ -1,33 +1,25 @@
-.header-content {
+header {
   display: flex;
   justify-content: space-between;
-  height: 79px;
+  height: 10%;
+}
+
+nav {
+  display: flex;
+  gap: 70px;
 }
 
 .header-logo {
-  width: Hug (161.09px) px;
-  height: Hug (79px) px;
-  padding: 30px 50px 30px 50px;
-  gap: 10px;
+  padding: 15%;
+  width: 40%;
 }
 
-.header-menu {
-  display: flex;
-  justify-content: space-between;
-  height: 20px;
-  left: 1096px;
-  gap: 68px;
-}
-
-/* Check */
 .header-btn {
-  position: relative;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  border-top: 3px solid transparent;
 }
 
 .header-btn:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
-  top: -8px;
 }
