@@ -20,6 +20,43 @@ nav {
 }
 
 .header-btn:hover {
-  border-top: 3px solid #0065fc;
+  border-top: 2px solid #0065fc;
   color: #0065fc;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    gap: 100px;
+    font-size: large;
+  }
+
+  .header-logo {
+    padding-top: 10%;
+    padding-bottom: 0;
+    width: 25%;
+  }
+
+  .header-btn {
+    padding-top: 30px;
+    border-top: 3px solid transparent;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 5%;
+    position: relative;
+  }
+
+  .header-btn:hover {
+    border-top: 3px solid transparent;
+    border-bottom: 2px solid #0065fc;
+    color: #0065fc;
+  }
+
+  /* REMOVE */
+  .hebergements {
+    opacity: 0;
+  }
 }
