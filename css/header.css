@@ -1,12 +1,12 @@
 header {
   display: flex;
   justify-content: space-between;
-  height: 10%;
 }
 
 nav {
   display: flex;
   gap: 70px;
+  padding-right: 3%;
 }
 
 .header-logo {
@@ -16,7 +16,7 @@ nav {
 
 .header-btn {
   padding-top: 15px;
-  border-top: 3px solid transparent;
+  border-top: 2px solid transparent;
 }
 
 .header-btn:hover {
@@ -28,11 +28,13 @@ nav {
   header {
     display: block;
     text-align: center;
+    padding-bottom: 3%;
   }
 
   nav {
-    gap: 100px;
+    gap: 0;
     font-size: large;
+    padding-right: 0;
   }
 
   .header-logo {
@@ -42,21 +44,14 @@ nav {
   }
 
   .header-btn {
+    flex: 1;
     padding-top: 30px;
-    border-top: 3px solid transparent;
     border-bottom: 2px solid #f2f2f2;
     padding-bottom: 5%;
-    position: relative;
   }
 
   .header-btn:hover {
-    border-top: 3px solid transparent;
+    border-top: 2px solid transparent;
     border-bottom: 2px solid #0065fc;
-    color: #0065fc;
-  }
-
-  /* REMOVE */
-  .hebergements {
-    opacity: 0;
   }
 }
