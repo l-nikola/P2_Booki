@@ -131,22 +131,16 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hebergements-and-populaires {
-    flex-direction: column;
+    display: flex;
+    gap: 20px;
   }
 
   .hebergements {
-    width: 100%;
+    flex: 2;
   }
 
   .populaires {
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  .populaires-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex: 1;
   }
 
   .populaires-cards a {
