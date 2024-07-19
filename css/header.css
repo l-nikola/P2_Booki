@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 70px;
+  padding-right: 3%;
+}
+
+.header-logo {
+  width: 100%;
+  padding: 15%;
+  max-width: 90px;
+}
+
+.header-btn {
+  padding-top: 15px;
+  border-top: 2px solid transparent;
+}
+
+.header-btn:hover {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: block;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  nav {
+    gap: 0;
+    font-size: large;
+    padding-right: 0;
+  }
+
+  .header-logo {
+    padding-top: 10%;
+    padding-bottom: 0;
+    width: 25%;
+  }
+
+  .header-btn {
+    flex: 1;
+    padding-top: 30px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 5%;
+  }
+
+  .header-btn:hover {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #0065fc;
+  }
+}
