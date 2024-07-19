@@ -10,8 +10,9 @@ nav {
 }
 
 .header-logo {
+  width: 100%;
   padding: 15%;
-  width: 40%;
+  max-width: 90px;
 }
 
 .header-btn {
