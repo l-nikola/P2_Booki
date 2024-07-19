@@ -25,8 +25,9 @@ body {
   box-sizing: border-box;
 }
 
-figure {
+.card-content {
   margin: 0;
+  display: flex;
 }
 
 a {
@@ -103,7 +104,7 @@ a {
   border-bottom-left-radius: 20px;
 }
 
-.populaires-cards .card-content {
+.populaires-cards .card-info {
   width: 67%;
   padding-left: 15px;
   display: flex;
