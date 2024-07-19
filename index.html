@@ -18,11 +18,23 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/base.css" />
   </head>
 
   <body>
     <div class="main-container">
-      <header></header>
+      <header>
+        <a href="#">
+          <img class="header-logo" src="./images/logo/Booki.png" />
+        </a>
+        <nav>
+          <a href="#" class="header-btn">Hébergements</a>
+          <a href="#" class="header-btn">Activités</a>
+        </nav>
+      </header>
+
       <main>
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
@@ -163,7 +175,29 @@
           </section>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <!-- A Propos -->
+        <ul>
+          <h5>À Propos</h5>
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li><a href="#">Conditions générales</a></li>
+          <li><a href="#">Données et confidentialité</a></li>
+        </ul>
+
+        <!-- Nos hébergements -->
+        <ul>
+          <h5>Nos hébergements</h5>
+          <li><a href="#">Charte qualité</a></li>
+          <li><a href="#">Proposer votre hôtel</a></li>
+        </ul>
+
+        <!-- Assistance -->
+        <ul>
+          <h5>Assistance</h5>
+          <li><a href="#">Centre d'aide</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
