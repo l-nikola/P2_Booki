@@ -122,6 +122,10 @@ a {
   margin-bottom: 5px;
 }
 
+.card-content {
+  width: 100%;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
