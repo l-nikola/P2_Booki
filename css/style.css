@@ -158,8 +158,30 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .main-container {
     padding: 0;
+  }
+
+  .hebergements-and-populaires {
+    display: grid;
+  }
+
+  .hebergements {
+    width: 90%;
+    margin-left: 5%;
+    padding-right: 5%;
+  }
+
+  .populaires {
+    width: 90%;
+    margin-left: 5%;
+    padding-right: 5%;
+    padding: 0%;
+  }
+
+  .populaires-cards {
+    display: flex;
+    justify-content: space-around;
   }
 }
