@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/hebergements-populaires.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/section-form.css" />
   </head>
 
   <body>
@@ -35,6 +36,42 @@
     </header>
 
     <main>
+      <!-- Section formulaire -->
+      <section>
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+        <span>En plein centre-ville ou en pleine nature</span>
+
+        <form action="">
+          <div class="icone-font-awsome">
+            <i class="fa fa-map-marker-alt"></i>
+            <input type="search" />
+            <button type="submit">Rechercher</button>
+          </div>
+
+          <h5>Filtres</h5>
+          <form action="">
+            <label class="custom-radio">
+              <input type="radio" name="option" value="1" />
+              Économique
+              <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="option" value="2" />
+              Familial
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="option" value="3" />
+              Romantique
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="option" value="4" />
+              Nos pépites
+            </label>
+          </form>
+        </form>
+      </section>
+
       <div class="hebergements-and-populaires">
         <!-- Hébergements -->
         <section class="hebergements">
