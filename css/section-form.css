@@ -1,3 +1,40 @@
 .custom-radio i {
   color: var(--main-color);
+  width: 10%;
+}
+
+h6 {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.form-radio {
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: baseline;
+}
+
+.custom-radio {
+  margin-right: 1%;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio input[type="radio"]:checked + .icon-text {
+  background-color: var(--hover-blue);
+}
+
+.custom-radio .icon-text {
+  display: flex;
+  border-radius: 25px;
+  border: 2px solid var(--second-bg-color);
+  padding: 10px 12px 10px 12px;
+  align-items: center;
+}
+
+.icon-text i {
+  margin-right: 10px;
 }
