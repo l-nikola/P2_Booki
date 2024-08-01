@@ -24,7 +24,8 @@ h6 {
 }
 
 .custom-radio {
-  margin-right: 1%;
+  margin: 5px;
+  box-sizing: border-box;
 }
 
 .custom-radio input[type="radio"] {
@@ -86,6 +87,7 @@ h6 {
   outline: none;
   font-weight: bold;
   text-align: center;
+  font-size: 15px;
 }
 
 .input-search::-webkit-search-cancel-button {
@@ -103,4 +105,24 @@ h6 {
   font-size: 13px;
   margin-right: 10px;
   margin-bottom: 30px;
+}
+
+/****** Media queries ***********/
+/****** Mobile ***********/
+@media (max-width: 767px) {
+  /****** SearchBar ***********/
+  .btn-search {
+    background-color: var(--main-color);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .fa-magnifying-glass {
+    color: white;
+    display: flex;
+  }
 }
