@@ -1,3 +1,10 @@
+/****** General ***********/
+.section-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 /****** FilterBar ***********/
 .custom-radio i {
   color: var(--main-color);
@@ -5,14 +12,14 @@
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 16px;
   margin-right: 10px;
 }
 
 .form-radio {
   display: flex;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   align-items: baseline;
 }
 
@@ -84,4 +91,16 @@ h6 {
 .input-search::-webkit-search-cancel-button {
   -webkit-appearance: none;
   appearance: none;
+}
+
+/****** InfoBar ***********/
+.fa-info {
+  text-align: center;
+  border: 1px solid var(--second-bg-color);
+  border-radius: 50%;
+  padding: 3px;
+  width: 13px;
+  font-size: 13px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
