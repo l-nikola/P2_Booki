@@ -23,7 +23,7 @@ h5 {
 
 /****** Media queries ***********/
 /****** Tablet ***********/
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   footer {
     margin: auto;
     margin-top: 3%;

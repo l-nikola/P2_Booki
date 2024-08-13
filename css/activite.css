@@ -2,13 +2,13 @@
 .activite {
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 60px;
 }
 
 /****** Cards ***********/
 .activite .card {
   padding: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 60px;
 }
 
 .activite-cards {
@@ -28,17 +28,41 @@
   border-top-right-radius: 20px;
 }
 
-.activite-cards .card-title {
-  margin-top: 14px;
-  padding-bottom: 15px;
-  margin-left: 6%;
+.activite-cards .card-txt {
+  height: 60px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  align-content: center;
+  padding-left: 6%;
 }
 
 /****** Media queries ***********/
 /****** Tablet ***********/
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+  .activite-cards img {
+    height: 170px;
+  }
+
+  .activite-cards .card-txt {
+    height: 70px;
+  }
 }
 
 /****** Mobile ***********/
 @media (max-width: 767px) {
+  .activite {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20%;
+  }
+
+  .activite-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activite-cards img {
+    height: 130px;
+  }
 }

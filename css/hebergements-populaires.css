@@ -128,7 +128,7 @@
 
 /****** Media queries ***********/
 /****** Tablet ***********/
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   /****** Hebergements And Populaires ***********/
   .hebergements-and-populaires {
     gap: 40px;
