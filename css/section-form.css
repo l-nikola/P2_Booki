@@ -11,6 +11,11 @@
   width: 10%;
 }
 
+.section-filter {
+  display: flex;
+  align-items: center;
+}
+
 h6 {
   font-size: 16px;
   margin-right: 10px;
@@ -116,12 +121,24 @@ h6 {
 }
 
 /****** Media queries ***********/
+/****** Tablet ***********/
+@media (max-width: 1023px) {
+  /****** FilterBar ***********/
+  .section-filter {
+    display: block;
+  }
+}
+
 /****** Mobile ***********/
 @media (max-width: 767px) {
   /****** General ***********/
   .section-form {
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .section-form h1 {
+    margin-bottom: 10px;
   }
 
   /****** SearchBar ***********/
