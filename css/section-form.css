@@ -101,6 +101,11 @@ h4 {
   font-weight: bold;
   font-size: 15px;
   padding-left: 10px;
+  width: 150px;
+}
+
+.input-search::placeholder {
+  color: black;
 }
 
 .input-search::-webkit-search-cancel-button {
