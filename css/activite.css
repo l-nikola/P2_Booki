@@ -28,7 +28,7 @@
   border-top-right-radius: 20px;
 }
 
-.activite-cards .card-txt {
+.activite-cards .card-info {
   height: 60px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -43,7 +43,7 @@
     height: 170px;
   }
 
-  .activite-cards .card-txt {
+  .activite-cards .card-info {
     height: 70px;
   }
 }
