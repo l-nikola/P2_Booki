@@ -156,11 +156,11 @@ h2 {
     margin-bottom: 10px;
   }
 
-  /****** SearchBar ***********/
-  .search-bar {
-    margin-left: -15px;
+  .section-info {
+    margin-left: 15px;
   }
 
+  /****** SearchBar ***********/
   .fa-map-marker-alt {
     width: 50px;
   }
@@ -187,6 +187,10 @@ h2 {
   }
 
   /****** FilterBar ***********/
+  h2 {
+    margin-left: 5px;
+  }
+
   .form-radio {
     display: grid;
     grid-template-columns: 1fr 1fr;
