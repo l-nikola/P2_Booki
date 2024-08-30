@@ -7,12 +7,11 @@ header {
 nav {
   display: flex;
   gap: 70px;
-  padding-right: 3%;
 }
 
 .header-logo {
   width: 100%;
-  padding: 15%;
+  padding: 15% 0;
   max-width: 90px;
 }
 
