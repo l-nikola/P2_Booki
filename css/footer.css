@@ -15,8 +15,9 @@ li {
   padding: 10px;
 }
 
-h5 {
+h9 {
   font-size: large;
+  font-weight: bold;
 }
 
 /****** Media queries ***********/
