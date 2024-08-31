@@ -55,7 +55,10 @@
 }
 
 .show-more {
-  margin-top: 4%;
+  margin-top: 3%;
+  display: flex;
+  font-weight: bold;
+  font-size: large;
 }
 
 .clickable-card {
@@ -148,10 +151,6 @@
     width: 100%;
     margin: auto;
     padding-right: 5%;
-  }
-
-  .show-more {
-    font-size: medium;
   }
 
   /****** Populaires ***********/
